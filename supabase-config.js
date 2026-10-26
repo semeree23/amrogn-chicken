@@ -1,0 +1,2 @@
+window.AMROGN_SUPABASE_URL = "";
+window.AMROGN_SUPABASE_ANON_KEY = "";

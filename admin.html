@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>Menu Availability | Amrogn Chicken</title>
+    <link rel="icon" type="image/jpeg" href="assets/amrognlogo.jpg" />
+    <link rel="stylesheet" href="styles.css?v=2" />
+    <link rel="stylesheet" href="admin.css" />
+  </head>
+  <body class="admin-page">
+    <main class="admin-shell">
+      <header class="admin-header">
+        <a class="admin-brand" href="index.html" aria-label="Amrogn Chicken home">
+          <img src="assets/amrognlogo.jpg" alt="Amrogn Chicken" />
+          <span>Menu availability</span>
+        </a>
+        <a class="admin-back" href="index.html">View customer menu</a>
+      </header>
+
+      <section class="admin-intro">
+        <p class="eyebrow">CMC branch staff</p>
+        <h1>Today's availability</h1>
+        <p>Switch a dish off when it sells out. Customers will see its status on the menu.</p>
+      </section>
+
+      <section id="admin-login-panel" class="admin-panel" aria-labelledby="login-title">
+        <h2 id="login-title">Staff sign in</h2>
+        <form id="admin-login-form" class="admin-login-form">
+          <label>
+            Email
+            <input id="admin-email" name="email" type="email" autocomplete="username" required />
+          </label>
+          <label>
+            Password
+            <input id="admin-password" name="password" type="password" autocomplete="current-password" required />
+          </label>
+          <button class="primary-btn" type="submit">Sign in</button>
+        </form>
+        <p id="admin-login-message" class="admin-message" aria-live="polite"></p>
+      </section>
+
+      <section id="admin-controls-panel" class="admin-panel" hidden>
+        <div class="admin-list-heading">
+          <h2>Menu items</h2>
+          <button id="admin-sign-out" class="secondary-btn" type="button">Sign out</button>
+        </div>
+        <p id="admin-status-message" class="admin-message" aria-live="polite"></p>
+        <div id="admin-menu-list" class="admin-menu-list"></div>
+      </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="supabase-config.js"></script>
+    <script src="admin.js"></script>
+  </body>
+</html>

@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amrogn Chicken | Menu</title>
+    <meta
+      name="description"
+      content="Amrogn Chicken is a beloved Addis Ababa restaurant serving fresh chicken, family meals, sides, and drinks."
+    />
+    <meta property="og:title" content="Amrogn Chicken | Menu" />
+    <meta property="og:image" content="assets/amrognlogo.jpg" />
+    <meta
+      property="og:description"
+      content="Explore the Amrogn Chicken menu in Addis Ababa: fresh chicken, shawarma, combos, and drinks."
+    />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Restaurant",
+        "name": "Amrogn Chicken",
+        "image": "assets/amrognlogo.jpg",
+        "telephone": "+251986558355",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Addis Ababa",
+          "addressCountry": "ET"
+        },
+        "servesCuisine": "Chicken, Fast Food, Shawarma",
+        "priceRange": "$$",
+        "openingHours": "Mo-Su 10:00-22:00"
+      }
+    </script>
+    <link rel="icon" type="image/jpeg" href="assets/amrognlogo.jpg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?v=2" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="container topbar-inner">
+        <div class="brand">
+          <img class="brand-logo" src="assets/amrognlogo.jpg" alt="Amrogn Chicken logo" />
+          <div>
+            <p class="brand-name">AMROGN</p>
+            <p class="brand-subtitle">CHICKEN</p>
+          </div>
+        </div>
+        <nav class="nav">
+          <a href="#favorites">Favorites</a>
+          <a href="#menu">Menu</a>
+          <a href="#branches">Branches</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </nav>
+        <a class="cta-link" href="https://wa.me/251986558355?text=Hello%20Amrogn%20Chicken%2C%20I%20would%20like%20to%20place%20an%20order." target="_blank" rel="noreferrer">Order Now</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <video
+          class="hero-video"
+          autoplay
+          muted
+          loop
+          playsinline
+          preload="metadata"
+          poster="assets/chicken-cooking.jpg"
+          aria-hidden="true"
+        >
+          <source src="assets/chicken-cooking.mp4" type="video/mp4" />
+        </video>
+        <div class="hero-video-overlay" aria-hidden="true"></div>
+        <div class="container hero-inner">
+          <div class="hero-copy">
+            <span class="eyebrow">A local favorite in Addis Ababa</span>
+            <h1>The taste of Addis Ababa, served hot and fresh.</h1>
+            <p>
+              Crispy, juicy, and unforgettable — Amrogn Chicken is a well-loved
+              local restaurant in Addis Ababa, serving family meals, quick lunch bites,
+              and chicken favorites that keep customers coming back.
+            </p>
+            <div class="hero-actions">
+              <a class="primary-btn" href="#menu">View Menu</a>
+              <a class="secondary-btn" href="https://wa.me/251986558355?text=Hello%20Amrogn%20Chicken%2C%20I%20would%20like%20to%20place%20an%20order." target="_blank" rel="noreferrer">WhatsApp Order</a>
+            </div>
+          </div>
+
+          <div class="hero-card">
+            <div class="card-badge">Customer favorite</div>
+            <div class="dish-image">
+              <img
+                src="assets/chicken-cooking.jpg"
+                alt="Chicken cooking with onions in a pan"
+                fetchpriority="high"
+              />
+              <div class="image-glow"></div>
+            </div>
+            <div class="dish-meta">
+              <div>
+                <p class="meta-label">Special Shawarma</p>
+                <h3>Made fresh to order</h3>
+              </div>
+              <span class="price">380 Birr</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="favorites" class="featured-section">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">Made for your cravings</span>
+            <h2>What sounds good today?</h2>
+          </div>
+          <div class="featured-items">
+            <a class="featured-item" href="#menu" data-featured-filter="shawarma">
+              <span>Shawarma</span>
+              <h3>Special Shawarma</h3>
+              <p>Explore our shawarma and meals</p>
+              <strong>946 Birr</strong>
+            </a>
+            <a class="featured-item" href="#menu" data-featured-filter="chicken">
+              <span>Chicken</span>
+              <h3>Fried Chicken</h3>
+              <p>Browse chicken favorites</p>
+              <strong>From 1,100 Birr</strong>
+            </a>
+            <a class="featured-item" href="#menu" data-featured-filter="combos">
+              <span>Combos</span>
+              <h3>Amrogn Combo</h3>
+              <p>See combos and salads</p>
+              <strong>4,312 Birr</strong>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="feature-banner">
+        <div class="container feature-banner-inner">
+          <div class="feature-banner-copy">
+            <span class="eyebrow">Visit us in CMC</span>
+            <h2>Your Amrogn Chicken, right here in Addis Ababa.</h2>
+            <p>
+              Find us at 2V82+WHJ, Addis Ababa. Join us for your favorite chicken meals,
+              shawarma, and warm service, every day from 10:00 to 22:00.
+            </p>
+            <div class="hero-actions">
+              <a class="primary-btn" href="#menu">Explore Menu</a>
+              <a class="secondary-btn" href="https://wa.me/251986558355?text=Hello%20Amrogn%20Chicken%2C%20I%20would%20like%20to%20place%20an%20order." target="_blank" rel="noreferrer">WhatsApp Order</a>
+            </div>
+          </div>
+          <div class="feature-banner-media">
+            <img
+              src="assets/photo_2026-10-11_21-01-21.jpg"
+              alt="Amrogn Chicken CMC storefront in Addis Ababa"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="order-section">
+        <div class="container order-panel">
+          <div>
+            <span class="eyebrow">Order now</span>
+            <h2>Craving something tasty?</h2>
+          </div>
+          <div class="order-actions">
+            <a
+              class="primary-btn order-btn"
+              href="https://wa.me/251986558355?text=Hello%20Amrogn%20Chicken%2C%20I%20would%20like%20to%20place%20an%20order."
+              target="_blank"
+              rel="noreferrer"
+            >
+              Order on WhatsApp
+            </a>
+            <a
+              class="secondary-btn"
+              href="https://www.facebook.com/share/v/1C6gvGwj51/?mibextid=wwXIfr"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Follow us
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="menu" class="menu-section">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">Our menu</span>
+            <h2>Amrogn Chicken favorites</h2>
+          </div>
+
+          <div class="menu-filters" role="group" aria-label="Filter menu by category">
+            <button class="menu-filter is-active" type="button" data-menu-filter="all" aria-pressed="true">All</button>
+            <button class="menu-filter" type="button" data-menu-filter="chicken" aria-pressed="false">Chicken</button>
+            <button class="menu-filter" type="button" data-menu-filter="shawarma" aria-pressed="false">Shawarma</button>
+            <button class="menu-filter" type="button" data-menu-filter="combos" aria-pressed="false">Combos</button>
+            <button class="menu-filter" type="button" data-menu-filter="drinks" aria-pressed="false">Drinks</button>
+          </div>
+
+          <div class="menu-grid">
+            <article class="menu-category" data-menu-category="shawarma">
+              <h3>Shawarma & Meals</h3>
+
+              <div class="menu-item" data-item-id="special-shawarma">
+                <div>
+                  <h4>Special Shawarma</h4>
+                </div>
+                <span>946 Birr</span>
+              </div>
+
+              <div class="menu-item" data-item-id="chicken-shawarma">
+                <div>
+                  <h4>Chicken Shawarma</h4>
+                </div>
+                <span>792 Birr</span>
+              </div>
+
+              <div class="menu-item" data-item-id="chicken-fajita">
+                <div>
+                  <h4>Chicken Fajita</h4>
+                </div>
+                <span>1,578.50 Birr</span>
+              </div>
+
+              <div class="menu-item" data-item-id="chicken-kabsa">
+                <div>
+                  <h4>Chicken Kabsa</h4>
+                </div>
+                <span>1,848 Birr</span>
+              </div>
+            </article>
+
+            <article class="menu-category" data-menu-category="chicken">
+              <h3>Chicken Favorites</h3>
+
+              <div class="menu-item" data-item-id="chicken-wings-full">
+                <div>
+                  <h4>Chicken Wings, Full (10 pieces)</h4>
+                </div>
+                <span>2,442 Birr</span>
+              </div>
+
+              <div class="menu-item" data-item-id="chicken-wings-half">
+                <div>
+                  <h4>Chicken Wings, Half (5 pieces)</h4>
+                </div>
+                <span>1,661 Birr</span>
+              </div>
+
+              <div class="menu-item" data-item-id="fried-chicken-four">
+                <div>
+                  <h4>Fried Chicken (4 pieces)</h4>
+                </div>
+                <span>1,919.50 Birr</span>
+              </div>
+
+              <div class="menu-item" data-item-id="fried-chicken-three">
+                <div>
+                  <h4>Fried Chicken (3 pieces)</h4>
+                </div>
+                <span>1,463 Birr</span>
+              </div>
+
+              <div class="menu-item" data-item-id="fried-chicken-two">
+                <div>
+                  <h4>Fried Chicken (2 pieces)</h4>
+                </div>
+                <span>1,100 Birr</span>
+              </div>
+
+              <div class="menu-item" data-item-id="chicken-burger">
+                <div>
+                  <h4>Chicken Burger</h4>
+                </div>
+                <span>1,012 Birr</span>
+              </div>
+
+              <div class="menu-item" data-item-id="grilled-double-quarter-leg">
+                <div>
+                  <h4>Grilled Double Quarter Leg</h4>
+                </div>
+                <span>3,883 Birr</span>
+              </div>
+
+              <div class="menu-item" data-item-id="grilled-quarter-leg">
+                <div>
+                  <h4>Grilled Quarter Leg</h4>
+                </div>
+                <span>1,881 Birr</span>
+              </div>
+
+              <div class="menu-item" data-item-id="roasted-full">
+                <div>
+                  <h4>Full Roasted Chicken</h4>
+                </div>
+                <span>4,240 Birr</span>
+              </div>
+
+              <div class="menu-item" data-item-id="roasted-half">
+                <div>
+                  <h4>Half Roasted Chicken</h4>
+                </div>
+                <span>2,211 Birr</span>
+              </div>
+
+              <div class="menu-item" data-item-id="mofo-quarter-leg">
+                <div>
+                  <h4>Chicken Mofo Quarter Leg (Double Quarter Leg)</h4>
+                </div>
+                <span>1,991 Birr</span>
+              </div>
+
+              <div class="menu-item" data-item-id="mofo-double-quarter-leg">
+                <div>
+                  <h4>Chicken Mofo Double Quarter Leg</h4>
+                </div>
+                <span>3,883 Birr</span>
+              </div>
+            </article>
+
+            <article class="menu-category" data-menu-category="combos">
+              <h3>Combos & Salads</h3>
+
+              <div class="menu-item" data-item-id="roasted-combo">
+                <div>
+                  <h4>Roasted Combo</h4>
+                </div>
+                <span>4,169 Birr</span>
+              </div>
+
+              <div class="menu-item" data-item-id="amrogn-combo">
+                <div>
+                  <h4>Amrogn Combo</h4>
+                </div>
+                <span>4,312 Birr</span>
+              </div>
+
+              <div class="menu-item" data-item-id="mofo-combo">
+                <div>
+                  <h4>Mofo Combo</h4>
+                </div>
+                <span>3,740 Birr</span>
+              </div>
+
+              <div class="menu-item" data-item-id="grilled-combo">
+                <div>
+                  <h4>Grilled Combo</h4>
+                </div>
+                <span>3,476 Birr</span>
+              </div>
+
+              <div class="menu-item" data-item-id="goulash-combo">
+                <div>
+                  <h4>Goulash Combo</h4>
+                </div>
+                <span>3,487 Birr</span>
+              </div>
+
+              <div class="menu-item" data-item-id="green-salad">
+                <div>
+                  <h4>Green Salad</h4>
+                </div>
+                <span>792 Birr</span>
+              </div>
+
+              <div class="menu-item" data-item-id="chicken-salad">
+                <div>
+                  <h4>Chicken Salad</h4>
+                </div>
+                <span>1,067 Birr</span>
+              </div>
+            </article>
+
+            <article class="menu-category" data-menu-category="drinks">
+              <h3>Drinks</h3>
+
+              <div class="menu-item" data-item-id="water-500ml">
+                <div><h4>Water (500 ml)</h4></div>
+                <span>88 Birr</span>
+              </div>
+              <div class="menu-item" data-item-id="soft-drink-500ml">
+                <div><h4>Soft Drink (500 ml)</h4></div>
+                <span>187 Birr</span>
+              </div>
+              <div class="menu-item" data-item-id="amrogn-special-drink">
+                <div><h4>Amrogn Special</h4></div>
+                <span>550 Birr</span>
+              </div>
+              <div class="menu-item" data-item-id="power-kick">
+                <div><h4>Power Kick</h4></div>
+                <span>528 Birr</span>
+              </div>
+              <div class="menu-item" data-item-id="apple-special">
+                <div><h4>Apple Special</h4></div>
+                <span>528 Birr</span>
+              </div>
+              <div class="menu-item" data-item-id="temmere-milk">
+                <div><h4>Temmere with Milk</h4></div>
+                <span>528 Birr</span>
+              </div>
+              <div class="menu-item" data-item-id="body-builder">
+                <div><h4>Body Builder</h4></div>
+                <span>484 Birr</span>
+              </div>
+              <div class="menu-item" data-item-id="bulling-factor">
+                <div><h4>Bulling Factor</h4></div>
+                <span>528 Birr</span>
+              </div>
+              <div class="menu-item" data-item-id="smoothie">
+                <div><h4>Smoothie</h4></div>
+                <span>528 Birr</span>
+              </div>
+              <div class="menu-item" data-item-id="flaxseed-telba">
+                <div><h4>Flaxseed (Telba)</h4></div>
+                <span>550 Birr</span>
+              </div>
+              <div class="menu-item" data-item-id="seasonal-juice">
+                <div><h4>Seasonal Juice</h4></div>
+                <span>484 Birr</span>
+              </div>
+              <div class="menu-item" data-item-id="banana-shake">
+                <div><h4>Banana Shake</h4></div>
+                <span>671 Birr</span>
+              </div>
+              <div class="menu-item" data-item-id="strawberry-shake">
+                <div><h4>Strawberry Shake</h4></div>
+                <span>737 Birr</span>
+              </div>
+              <div class="menu-item" data-item-id="mango-shake">
+                <div><h4>Mango Shake</h4></div>
+                <span>627 Birr</span>
+              </div>
+              <div class="menu-item" data-item-id="avocado-shake">
+                <div><h4>Avocado Shake</h4></div>
+                <span>627 Birr</span>
+              </div>
+              <div class="menu-item" data-item-id="mini-mojito">
+                <div><h4>Mini Mojito</h4></div>
+                <span>407 Birr</span>
+              </div>
+              <div class="menu-item" data-item-id="mint-lemon-mojito">
+                <div><h4>Mint and Lemon Mojito</h4></div>
+                <span>385 Birr</span>
+              </div>
+              <div class="menu-item" data-item-id="blueberry-mojito">
+                <div><h4>Blueberry Mojito</h4></div>
+                <span>385 Birr</span>
+              </div>
+              <div class="menu-item" data-item-id="pineapple-mojito">
+                <div><h4>Pineapple Mojito</h4></div>
+                <span>385 Birr</span>
+              </div>
+              <div class="menu-item" data-item-id="coffee-mojito">
+                <div><h4>Coffee Mojito</h4></div>
+                <span>341 Birr</span>
+              </div>
+              <div class="menu-item" data-item-id="cinnamon-mojito">
+                <div><h4>Cinnamon Mojito</h4></div>
+                <span>390 Birr</span>
+              </div>
+              <div class="menu-item" data-item-id="special-mojito">
+                <div><h4>Special Mojito</h4></div>
+                <span>407 Birr</span>
+              </div>
+            </article>
+
+            <article class="menu-category" data-menu-category="extras">
+              <h3>Extras</h3>
+
+              <div class="menu-item" data-item-id="french-fries">
+                <div><h4>French Fries</h4></div>
+                <span>462 Birr</span>
+              </div>
+              <div class="menu-item" data-item-id="pita">
+                <div><h4>Pita</h4></div>
+                <span>66 Birr</span>
+              </div>
+              <div class="menu-item" data-item-id="spicy">
+                <div><h4>Spicy</h4></div>
+                <span>66 Birr</span>
+              </div>
+              <div class="menu-item" data-item-id="mayonnaise">
+                <div><h4>Mayonnaise</h4></div>
+                <span>66 Birr</span>
+              </div>
+              <div class="menu-item" data-item-id="sauce-cup">
+                <div><h4>Sauce in a Cup</h4></div>
+                <span>220 Birr</span>
+              </div>
+              <div class="menu-item" data-item-id="ketchup">
+                <div><h4>Ketchup</h4></div>
+                <span>33 Birr</span>
+              </div>
+              <div class="menu-item" data-item-id="rice">
+                <div><h4>Rice</h4></div>
+                <span>495 Birr</span>
+              </div>
+              <div class="menu-item" data-item-id="shito">
+                <div><h4>Shito</h4></div>
+                <span>33 Birr</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="gallery-section">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">Taste the vibe</span>
+            <h2>Good food, warm atmosphere, great moments</h2>
+          </div>
+          <div class="gallery-grid">
+            <div class="gallery-card tall">
+              <img src="assets/photo_2026-10-11_21-01-21.jpg" alt="Amrogn Chicken restaurant storefront" />
+            </div>
+            <div class="gallery-card">
+              <img src="assets/amr2.jpg" alt="Amrogn Chicken storefront entrance" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="community-section">
+        <div class="container community-inner">
+          <div>
+            <span class="eyebrow">From our Addis community</span>
+            <h2>Good food brings people together.</h2>
+            <p>Visit us in CMC, share a meal, and follow along for the latest from Amrogn Chicken.</p>
+          </div>
+          <a class="primary-btn" href="https://www.facebook.com/share/v/1C6gvGwj51/?mibextid=wwXIfr" target="_blank" rel="noreferrer">Follow Amrogn Chicken</a>
+        </div>
+      </section>
+
+      <section id="branches" class="branches">
+        <div class="container">
+          <div class="section-heading">
+            <span class="eyebrow">Find us</span>
+            <h2>Visit us in CMC</h2>
+          </div>
+
+          <div class="branch-grid">
+            <div class="branch-card">
+              <h3>CMC</h3>
+              <p>2V82+WHJ, Addis Ababa, Ethiopia</p>
+              <p><a href="https://www.google.com/maps/search/?api=1&query=2V82%2BWHJ%2C%20Addis%20Ababa%2C%20Ethiopia" target="_blank" rel="noreferrer">Get directions</a></p>
+            </div>
+          </div>
+
+          <p class="branches-note">
+            Visit us every day, Monday to Sunday, from 10:00 to 22:00.
+          </p>
+        </div>
+      </section>
+
+      <section id="about" class="about">
+        <div class="container about-inner">
+          <div>
+            <span class="eyebrow">About us</span>
+            <h2>Authentic taste. Warm hospitality.</h2>
+          </div>
+          <p>
+            For years, Amrogn Chicken has been serving meals made with care,
+            bold spices, and the kind of taste that keeps customers returning in Addis Ababa.
+            From quick chicken lunches to family dinners, every order is prepared
+            to satisfy your craving and bring people back for more.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="footer">
+      <div class="container footer-inner">
+        <div>
+          <p class="brand-name footer-brand">AMROGN</p>
+          <p class="brand-subtitle">CHICKEN</p>
+        </div>
+        <div>
+          <h4>Locations</h4>
+          <p>CMC</p>
+          <p>2V82+WHJ, Addis Ababa, Ethiopia</p>
+          <p><a href="https://www.google.com/maps/search/?api=1&query=2V82%2BWHJ%2C%20Addis%20Ababa%2C%20Ethiopia" target="_blank" rel="noreferrer">Get directions</a></p>
+        </div>
+        <div>
+          <h4>Visit & Order</h4>
+          <p>WhatsApp: <a href="https://wa.me/251986558355?text=Hello%20Amrogn%20Chicken%2C%20I%20would%20like%20to%20place%20an%20order." target="_blank" rel="noreferrer">+251 986 558 355</a></p>
+          <p>Call: <a href="tel:+251986558355">0986558355</a></p>
+        </div>
+        <div>
+          <h4>Hours</h4>
+          <p>Monday - Sunday</p>
+          <p>10:00 - 22:00</p>
+          <p><a href="admin.html">Staff sign in</a></p>
+        </div>
+      </div>
+      <div class="container legal">
+        <p>© <span id="year"></span> Amrogn Chicken. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="supabase-config.js"></script>
+    <script src="script.js"></script>
+    <div class="mobile-order-bar" aria-label="Quick contact actions">
+      <a class="mobile-call" href="tel:+251986558355">Call</a>
+      <a class="mobile-whatsapp" href="https://wa.me/251986558355?text=Hello%20Amrogn%20Chicken%2C%20I%20would%20like%20to%20place%20an%20order." target="_blank" rel="noreferrer">WhatsApp Order</a>
+    </div>
+  </body>
+</html>
